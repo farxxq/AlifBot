@@ -1,12 +1,12 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./index.css";
-import Container from "./pages/Container";
+import Chat from "./pages/Chat";
 function App() {
   return (
     <>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Container/>}></Route>
+          <Route path="/" element={<Chat />}></Route>
         </Routes>
       </BrowserRouter>
     </>
